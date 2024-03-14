@@ -23,4 +23,5 @@ def main():
     addBug(2, 2)
 
 # This is a code smell because it's generally advisable to use the if __name__ == "__main__": construct to allow or prevent parts of code from being run when the modules are imported.
-main()
+if __name__ == "__main__":
+    main()

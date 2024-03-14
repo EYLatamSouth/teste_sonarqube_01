@@ -1,12 +1,12 @@
 import os
 import sys
 
+# Uso de variáveis globais
+variavel_global = 10
+
 def exemplo_funcao(var1, var2):
     resultado = var1 + var2
     return resultado
-
-# Uso de variáveis globais
-variavel_global = 10
 
 def calculo_inadequado():
     for i in range(10):
@@ -21,7 +21,7 @@ def leitura_arquivo():
     arquivo.close()
 
 def main():
-    exemplo_funcao(5, '10')  # Erro de tipo
+    exemplo_funcao(5, 10)  # Erro de tipo
     calculo_inadequado()
     leitura_arquivo()
 

@@ -3,22 +3,23 @@ class bugClass:
     def no_parameter():
         print("No parameters here")
 
+    @staticmethod
     def another_error():
         print("No 'self' parameter here")
 
 
 def wrongNameFunction():
-    wrong_name = "This is not a compliant name"
+    #wrong_name = "This is not a compliant name"
     print(INVALID_VARIABLE)
 
 def string_format_issue():
     name = "John"
-    print("Hello %s" % age)
+    print("Hello %s" % name)
 
 def nested_conditions(i):
     if i < 10:
-        if i < 5:
-            print("Nested conditionals")
+        #if i < 5:
+        print("Nested conditionals")
 
 INVALID_VARIABLE = "This is defined after being used"
 bugObject = bugClass()
