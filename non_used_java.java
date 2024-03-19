@@ -1,8 +1,10 @@
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-        // Declaração de uma variável não utilizada - SonarQube deve detectar isso como um code smell.
-        int unusedVariable = 5;
+public class HelloWorld {
+    private static final Logger logger = LoggerFactory.getLogger(HelloWorld.class);
+
+    public static void main(String[] args) {
+        logger.info("Hello, World!");
     }
 }
