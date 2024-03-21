@@ -1,11 +1,11 @@
 import os
 import sys
 
-def addBug(a, b):
+def add_bug(a, b):
     result = a + b
     print(result) # debug line
 
-def showVulnerability(name):
+def show_vulnerability(name):
     os.system("echo Hello, " + name)
 
 def main():
@@ -13,7 +13,7 @@ def main():
         name = sys.argv[1]
     else:
         name = "World"
-    showVulnerability(name)
-    addBug(2, 2)
+    show_vulnerability(name)
+    add_bug(2, 2)
 
 main()
