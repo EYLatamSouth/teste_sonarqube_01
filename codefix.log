@@ -1,0 +1,57 @@
+2024-03-22 13:03:29: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:03:40: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:03:44: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:03:44: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:03:44: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:04:25: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:26: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:26: INFO - Clonando repositorio localizado em https://github.com/BR014367535_EYGS/EY_FSO_GENAI_REPO_TEST.git
+2024-03-22 13:04:48: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:48: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:49: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:04:49: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:04:51: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:51: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:04:51: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:04:52: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:53: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:04:53: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:04:53: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:54: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:04:54: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:04:54: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:55: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:04:55: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:04:55: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:04:56: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:04:56: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:05:12: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:05:13: WARNING - Repositorio EY_FSO_GENAI_REPO_TEST ja criado!
+2024-03-22 13:05:13: INFO - Baixando as ultimas atualizacoes do repositorio EY_FSO_GENAI_REPO_TEST
+2024-03-22 13:05:37: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:05:37: INFO - Programa Codefix iniciado com sucesso
+2024-03-22 13:05:37: INFO - Clonando repositorio localizado em https://github.com/EYLatamSouth/teste_sonarqube_01
+2024-03-22 13:05:47: INFO - Repositorio clonado com sucesso!
+2024-03-22 13:05:47: INFO - Repositorio foi clonado no diretório C:\Users\nq658tv\OneDrive - EY\Desktop\Repositories\fso_genai_codefix\teste_sonarqube_01
+2024-03-22 13:05:47: INFO - Arquivo sonar-project.properties ja existe.
+2024-03-22 13:05:47: INFO - Compactando C:\Users\nq658tv\OneDrive - EY\Desktop\Repositories\fso_genai_codefix\teste_sonarqube_01 no arquivo teste_sonarqube_01.zip
+2024-03-22 13:05:47: INFO - Arquivo zip criado com sucesso
+2024-03-22 13:10:18: INFO - Sonar Scanner executado com sucesso
+2024-03-22 13:10:18: INFO - Resultados do scanner do repositório teste_sonarqube_01
+2024-03-22 13:10:18: INFO - Codigo: long_python_rename.py	Linha: 21	Issue: Rename function "readFile" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-22 13:10:18: INFO - Codigo: long_python_rename.py	Linha: 35	Issue: Rename this local variable "largeList" to match the regular expression ^[_a-z][a-z0-9_]*$.
+2024-03-22 13:10:18: INFO - Codigo: non_defined_python.py	Linha: 1	Issue: Remove the unused function parameter "b".
+2024-03-22 13:10:18: INFO - Codigo: non_used_java.java	Linha: 3	Issue: Replace this use of System.out or System.err by a logger.
+2024-03-22 13:10:18: INFO - Codigo: non_used_java.java	Linha: 6	Issue: Remove this useless assignment to local variable "unusedVariable".
+2024-03-22 13:10:18: INFO - Codigo: non_used_java.java	Linha: 6	Issue: Remove this unused "unusedVariable" local variable.
+2024-03-22 13:10:18: INFO - Codigo: python_nested.py	Linha: 1	Issue: Rename class "bugClass" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.
+2024-03-22 13:10:18: INFO - Codigo: python_nested.py	Linha: 6	Issue: Add a "self" or class parameter
+2024-03-22 13:10:18: INFO - Codigo: python_nested.py	Linha: 10	Issue: Rename function "wrongNameFunction" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-22 13:10:18: INFO - Codigo: python_nested.py	Linha: 11	Issue: Remove the unused local variable "wrong_name".
+2024-03-22 13:10:18: INFO - Codigo: python_nested.py	Linha: 15	Issue: Remove the unused local variable "name".
+2024-03-22 13:10:18: INFO - Codigo: python_nested.py	Linha: 20	Issue: Merge this if statement with the enclosing one.
+2024-03-22 13:10:18: INFO - Codigo: python_rename.py	Linha: 4	Issue: Rename function "addBug" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-22 13:10:18: INFO - Codigo: python_rename.py	Linha: 8	Issue: Rename function "showVulnerability" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-22 13:10:18: INFO - Codigo: security.js	Linha: 3	Issue: Use a secure mode and padding scheme.
+2024-03-22 13:10:18: INFO - Codigo: security.js	Linha: 3	Issue: Use a strong cipher algorithm.
+2024-03-22 13:10:19: INFO - Codigo dos arquivos extraidos com sucesso
